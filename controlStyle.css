@@ -1,0 +1,96 @@
+*{
+  margin = 0;
+  padding = 0;
+}
+
+body{
+  background: #f0f0f5;
+  font-family: sans-serif;
+}
+#H1{
+  color: rgb(99, 99, 156);
+  position: relative;
+  left: 47px;
+}
+.slideContainer{
+  width: 75%;
+  margin-top: 150px;
+}
+
+.slider{
+  -webkit-appearance: none;
+  width: 60%;
+  height:10px;
+  background:  rgb(146, 146, 185);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 12px;
+  box-shadow: 0px 2px 3px 0px black;
+}
+
+
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white;
+
+
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+p{
+  margin-top: 50px;
+  opacity: 0.7;
+  color: rgb(80, 80, 124);
+}
+
+
+
+input:hover {   color: rgb(99, 99, 156); }
+.btns{font-size: 15pt;}
+
+#forwardbtn{
+  position: relative;
+  left: 100px;
+}
+
+#backwardbtn{
+  position: absolute;
+  left: 100px;
+  top: 145px;
+
+}
+
+#righttbtn{
+  position: absolute;
+  left: 200px;
+  top: 115px;
+
+}
+
+#leftbtn{
+  position: absolute;
+  left: 35px;
+  top: 115px;
+}
+
+#stopbtn{
+  position: relative;
+  left: 125px;
+  top: 33px;
+}
+
+.go{
+  position: relative;
+  left: 108px;
+  top: 33px;
+}
+
+#Lama{
+  
+}
