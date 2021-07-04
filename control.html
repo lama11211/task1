@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Control Panel</title>
+    <link rel="stylesheet" href="controlStyle.css">
+
+  </head>
+  <body>
+<h1 id="H1">Control Panel</h1>
+<form class="" action="connect.php" method="post">
+
+
+<input type="submit" name="Forward" value="Go Forward" id="forwardbtn" class="btns" >
+<input type="submit" name="Backward" value="Go Backward" id="backwardbtn" class="btns" >
+
+<input type="submit" name="Left" value="Turn Left" id="leftbtn" class="btns" >
+<input type="submit" name="Right" value="Turn Right" id="righttbtn" class="btns" >
+
+<input type="submit" name="Stop" value="Stop!" id="stopbtn" class="btns" >
+
+</form>
+
+    <div class="slideContainer">
+      <div class="motor1">
+        <p>Motor 1:</p>
+        <input type="range" min="1" max="180" id="range" value="90" class="slider">
+      </div>
+
+      <div class="motot2">
+        <p>Motor 2:</p>
+        <input type="range" min="1" max="180" id="range2" value="90" class="slider" >
+      </div>
+
+      <div class="motot3">
+        <p>Motor 3:</p>
+        <input type="range" min="1" max="180" id="range3" value="90" class="slider">
+      </div>
+
+      <div class="motot4">
+        <p>Motor 4:</p>
+        <input type="range" min="1" max="180" id="range4" value="90" class="slider">
+      </div>
+
+      <div class="motot5">
+        <p>Motor 5:</p>
+        <input type="range" min="1" max="180" id="range5" value="90" class="slider">
+      </div>
+
+      <div class="motot6">
+        <p>Motor 6:</p>
+        <input type="range" min="1" max="180" id="range6" value="90" class="slider">
+      </div>
+    </div>
+
+    <input class="go" type="button" name="Save" value="Save">
+    <input class="go" type="submit" name="Run" value="Run">
+
+    <p id="Lama">Developer: Lama!</p>
+
+  </body>
+
+  <script src="main.js"></script>
+</html>
